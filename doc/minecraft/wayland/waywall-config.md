@@ -52,3 +52,23 @@ You can also load a config from any other Lua file in `~/.config/waywall/` by us
 If your config is valid, and you properly followed the setup steps in the previous section, launching your instance should result in the window title being "waywall" instead of the usual "Minecraft":
 
 ![image](https://github.com/user-attachments/assets/50549c81-dbbe-460d-a164-d116aa168531)
+
+## Public Resources
+There are many tools programmers in the community have created for waywall that are public use:
+- Saanvi's Plug.Waywall
+- Esensats' Waywork
+- Char's Resize Animations
+- Arsoniv's Fork of Waywall with custom fonts, twitch chat overlay and more
+- Gore's Plugins (Paceman Wall Overlay, Music overlay etc.)
+- I think Woof's Wayboard (Esensat's fork too) but idk too much about it yet
+
+## Advanced Configuration
+The programmers in the Linux MCSR community have come up with many incredible ideas to customize Waywall to suit their playstyle/aesthetic choices. 
+- Shaders
+    - Link to woof's docs
+    - Explain the simple shit
+    - Template
+- My Requests Library
+- Thin -> Tall no sens change
+- Idk random shit about waywall.exec?
+- (atp I might just link to my stupid thread)
