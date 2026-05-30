@@ -11,7 +11,7 @@ What that means is that files in these folders will be stocked in your memory an
 tmpfs /tmp tmpfs defaults,size=Xg 0 0
 ```
 
-Replace X with the number of gigabits you want to allocate, it won't use all of it if not needed but this sets a limit.
+Replace X with the number of gigabytes you want to allocate, it won't use all of it if not needed but this sets a limit.
 
 - E.g. While running Prism Launcher, I would symlink `~/.local/share/PrismLauncher/instances/Instance1/.minecraft/saves` to `/tmp/mc/1/` and so on by using the command below for each, ensure you have deleted the `saves` folder beforehand.
 
@@ -95,7 +95,7 @@ while true
 do
     for i in {1..X}
     do
-        for save in $(ls /tmp/mc/$i -t1 --ignore=Z* | tail -n +6)
+        for save in $(ls /tmp/mc/$i -t1 --ignore=Z* | tail -n +1000)
         do
             rm -r "/tmp/mc/$i/$save"
         done
